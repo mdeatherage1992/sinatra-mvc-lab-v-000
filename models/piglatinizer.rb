@@ -29,7 +29,7 @@ class PigLatinizer
   end
 
   def piglatinize_sentence(sentence)
-    sentence.split.collect{|words| piglatinize_word(words).join(' ')}
+    sentence.split.collect{|words| piglatinize_word(words)}.join(' ')
   end
 
 
