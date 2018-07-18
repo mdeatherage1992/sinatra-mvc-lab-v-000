@@ -4,7 +4,6 @@ class PigLatinizer
 
   def initialize
     @words = words
-    binding.pry
   end
 
   def pigLatinize
