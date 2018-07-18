@@ -1,14 +1,14 @@
 require "pry"
 class PigLatinizer
-  attr_reader :text
+  attr_reader :words
 
-  def initialize(text)
-    @text= text.downcase
+  def initialize(words)
+    @words = words.downcase
   end
 
   def make_latin
     binding.pry
-    first = text.slice(0).split
+    first = words.slice(0).split
   end
 
 end
