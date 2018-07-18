@@ -11,6 +11,10 @@ class PigLatinizer
     end
   end
 
+  def consonant?(start)
+  !start.match(/[aAeEiIoOuU]/)
+  end
+
 end
 
 
