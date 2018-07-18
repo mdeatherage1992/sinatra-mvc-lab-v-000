@@ -3,10 +3,11 @@ class PigLatinizer
   attr_reader :words
 
   def piglatinize(input)
+    converter = ''
     if input.split(' ').length == 1
-      converter = piglatinize_word(input)
+      converter += piglatinize_word(input)
     else
-      converter = piglatinize_sentence(input)
+      converter += piglatinize_sentence(input)
     end
     converter
   end
