@@ -6,7 +6,7 @@ class PigLatinizer
     @words = words
   end
 
-  def make_latin
+  def pigLatinize
     binding.pry
     first = words.slice(0).split
   end
