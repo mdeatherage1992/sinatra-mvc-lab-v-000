@@ -6,7 +6,7 @@ class PigLatinizer
   end
 
   def make_latin
-    
+    first = text.slice(0).split
   end
 
 end
