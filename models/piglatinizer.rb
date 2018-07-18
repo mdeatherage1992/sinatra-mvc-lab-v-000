@@ -11,9 +11,22 @@ class PigLatinizer
     end
   end
 
-  def consonant?(start)
+  def match?(start)
   !start.match(/[aAeEiIoOuU]/)
   end
+
+  def piglatinize_word(word)
+    if !match?(word[0])
+      word = word + "w"
+    elsif match?(word[0]) && match?(word[1]) && match?(word[2])
+      word = word.slice(3..-1) + word.slice(0,3)
+    elsif match?(word[0]) && match?(word[1])
+      word = word.slice(2..-1) + word.slice(0,2)
+    else
+      word = word.slice(1..-1) + word.slice(0)
+
+
+
 
 end
 
