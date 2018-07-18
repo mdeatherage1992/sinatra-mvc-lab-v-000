@@ -28,6 +28,9 @@ class PigLatinizer
     word << "ay"
   end
 
+  def piglatinize_sentence(sentence)
+    sentence.split.collect{|words| piglatinize_word(words).join(' ')}
+
 
 
 
