@@ -12,6 +12,6 @@ class PigLatinizer
 end
 
 
-"pig" = "igpay"
-"latin" = "atinlay"
-"banana" = "ananabay"
+# "pig" = "igpay"
+# "latin" = "atinlay"
+# "banana" = "ananabay"
