@@ -7,7 +7,7 @@ class PigLatinizer
     if converter.length == 1
       piglatinize_word(input)
     else
-      piglatinize_sentence
+      piglatinize_sentence(input)
     end
   end
 
