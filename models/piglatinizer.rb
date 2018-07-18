@@ -4,11 +4,11 @@ class PigLatinizer
 
   def initialize
     @words = words
+    binding.pry
   end
 
   def pigLatinize
-    binding.pry
-    first = words.slice(0).split
+
   end
 
 end
