@@ -5,9 +5,9 @@ class PigLatinizer
   def piglatinize(input)
     converter = input.split(' ')
     if converter.length == 1
-      piglatinize_word(input)
+      converter = piglatinize_word(input)
     else
-      piglatinize_sentence(input)
+      converter = piglatinize_sentence(input)
     end
   end
 
