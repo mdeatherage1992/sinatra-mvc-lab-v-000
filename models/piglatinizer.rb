@@ -9,6 +9,7 @@ class PigLatinizer
     else
       converter = piglatinize_sentence(input)
     end
+    converter
   end
 
   def match?(start)
